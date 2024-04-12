@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background:#FCABC3;
+    color: white;
+}
+
+#contenedor {
+    width: 960px;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+header {
+    height: 150px;
+    background: #F5A357;
+}
+
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+}
+.navcolor{
+    background: #FEC53C;
+}
+nav .menu {
+    list-style: none;
+    padding: 0px;
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    }
+
+.menu li a { 
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    font-size: 40px;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+      background:#FFE281 ;
+}
+
+#contenido{
+    width: 700px;
+    height: 500px;
+    float: left;
+    background: #FFA303;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-right: 10px;
+}
+
+#contenido p{
+    font-size: 40px;
+    height: 100px;
+    padding: 10px;
+}
+
+aside {
+    width: 250px;
+    height: 500px;
+    background-color: yellow;
+    margin-top: 10px;
+    float: right;  
+}
+
+aside img {
+    font-size: 450px;
+    text-align: center;
+    height: 450px;
+    margin-top: 150px;
+}
+
+footer {
+    background-color:#F0CC75 ;
+    clear: both;
+
+}
+
+footer h2 {
+    font-size: 25px;
+    text-align: left;
+    padding: 20px;
+    font-style: italic;
+}
